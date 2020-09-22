@@ -7,10 +7,10 @@ function Constructor(m, n){
         }
     }
 
-    let obj = Object.assign({}, mass);    
-    console.log(obj);
-
+    this.matrix = mass;
+        
 }
 
-new Constructor(2, 3);
+let constr = new Constructor(3, 3);
+console.log(constr.matrix);
 

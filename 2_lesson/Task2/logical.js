@@ -6,11 +6,7 @@ let outUser = {
 };
 
 function uUser(user){
-        if((user.company === "our company" || user.company === "partner's company") && (user.title === "Mr" || user.title === "Mrs")){
-        console.log(user.name);
-    } else {
-        console.log("not our employee");
-    }
+        ((user.company === "our company" || user.company === "partner's company") && (user.title === "Mr" || user.title === "Mrs")) ? console.log(user.name): "not our employee";  
     
 }
 uUser(outUser);
