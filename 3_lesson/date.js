@@ -2,7 +2,7 @@ let date1 = new Date('2020-09-07T01:15');
 let date2 = new Date('2020-09-21T05:15');
 
 
-function differenceday(){
+function differenceday(date1, date2){
     let count = 0;
 
     while(date1.getTime() < date2.getTime()){
