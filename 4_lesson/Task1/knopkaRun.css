@@ -1,0 +1,11 @@
+.button-wrapper {
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    border: 1px solid grey;
+    box-sizing: content-box;
+    position: relative;
+}
+#my-button {
+    position: absolute;
+}
