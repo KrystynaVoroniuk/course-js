@@ -13,7 +13,7 @@ function getRandomSize(min, max) {
 }
 function generateColor1(event) {
     let target = event.target;
-    target.background = '#' + Math.floor(Math.random()*16777215).toString(16);
+    target.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
     
 };
 
