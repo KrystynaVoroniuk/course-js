@@ -30,9 +30,11 @@ function f(){
         div.className = "entry"; 
         document.body.append(div);
 
+        div.addEventListener('click', generateColor1);
+
         
       }
-      document.body.addEventListener('click', generateColor1); 
+
  
     
      
