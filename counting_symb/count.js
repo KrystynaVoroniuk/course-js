@@ -19,7 +19,7 @@ function disab() {
 function tic(){
     setTimeout(() => {
     input.disabled = true;
-    }, 6000);
+    }, 60000);
 
   }
 
@@ -32,7 +32,7 @@ function symbol(){
     setTimeout(() => {
         content.innerHTML = "Количество символов: " + charCount(input.value);
 
-      }, 6000);
+      }, 60000);
       }
 
 function calcSpeed(){
@@ -43,7 +43,7 @@ function calcSpeed(){
         let res = len/min
         return speed.innerHTML = "Средняя скорость печати в секунду: " + res + " зн/мин";
 
-      }, 6000);
+      }, 60000);
 
     }
 
@@ -51,7 +51,7 @@ function discharge(){
     setTimeout(() => {
       sbros.hidden = false;
         
-    }, 6000);
+    }, 60000);
     sbros.onclick = function(){
       input.value = "";
       speed.innerHTML = "";
