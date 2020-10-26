@@ -1,4 +1,8 @@
 let user = {
+
+  _name: " ",
+  _surname:" ",
+
     get name() {
       return this._name;
     },
@@ -11,6 +15,7 @@ let user = {
       if (value.match(/\s/g)) {
         console.log("введите имя без пробела");
         return;
+        
       }
       this._name = value;
     },
@@ -22,14 +27,18 @@ let user = {
           this._surname = value;
     },
     get fullName() {
+      
         return `${this.name} ${this.surname}`;
+
       }
+        
+      
 
   };
   
   user.name ="Pete";
-  user.surname = "Rick";
+  user.surname = "R ick";
   console.log("Имя " + user.name);
   console.log("Фамилия " + user.surname);
-  console.log(user.fullName);
+  console.log("Полное имя " + user.fullName);
   

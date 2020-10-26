@@ -4,9 +4,9 @@ function countCall(){
   
   function calls(func){
     let time = 0;
-    func()
+    
     return function increase(){ 
-
+        func()
         time = time + 1;
         console.log(time);
        
